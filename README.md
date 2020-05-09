@@ -4,6 +4,10 @@
 ### Use at Your Own Risk. 
 We provide an electromagnetic computation package using prism-based discontinuous Galerkin time domain (DGTD) method. You may use it for non-commercial and commercial use. We try to ensure that the simulation result to be accurate. Despite our efforts, however, contents or computation results may, from time to time, contain error.
 
+## Dependencies:
+One should choose to download free Intel Math Kernel Library (MKL): 
+https://software.intel.com/en-us/mkl/choose-download/windows
+One could download, install, add to path of the MKL. And then run the package as follows.
 
 ## How to use it?
 1.	Modify the Input file.
@@ -13,16 +17,9 @@ In the input file “in.txt”, one can modify the time span and the geometry. T
 time-domain and frequency-domain (400 nm – 2000 nm). Currently, it only gives results upon x-polarized excitation.
 ![image](https://github.com/maiwending/pDGTD_GDM/blob/master/readme_fig/2.png)
 
-## Dependencies:
-The folder itself should contain the executable file in DEBUG mode with all the dependent library file that ready to go. 
-For higher computational efficiency, one could choose to download free Intel Math Kernel Library (MKL): 
-https://software.intel.com/en-us/mkl/choose-download/windows
-One could download, install, add to path of the MKL. And then paste the pDGTD.exe file into the default fold to run the package in more efficient RELEASE mode.
-
 ## Efficiency comparison:
 For the default example, the CPU times of different method are listed below:
-pDGTD DEBUG mode: 2000 s
-pDGTD RELEASE mode: 180 s
+pDGTD : 180 s
 CST Studio Software: 662 s
 
 ## Contact:
