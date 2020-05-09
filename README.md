@@ -8,11 +8,11 @@ This simulation package is prism-based Discontinuous Galerkin Time Domain method
 
 How to use it?
 1.	Modify the Input file.
-In the input file “in.txt”, one can modify the time span and the geometry. The geometry is a 2-fold symmetric unit cell with a period of 400 nm. The unit cell can be patterned by several gold pixels, measures 50 nm × 50 nm × 20 nm. In order to add gold padding, one could input the number of padding, and then the index numbering. The index number ascends along x- and y- axes, as depicted in below figures.   ![image](http://github.com/maiwending/readme_fig/raw/master/images/1.jpg)
+In the input file “in.txt”, one can modify the time span and the geometry. The geometry is a 2-fold symmetric unit cell with a period of 400 nm. The unit cell can be patterned by several gold pixels, measures 50 nm × 50 nm × 20 nm. In order to add gold padding, one could input the number of padding, and then the index numbering. The index number ascends along x- and y- axes, as depicted in below figures.   ![image](https://github.com/maiwending/pDGTD_GDM/blob/master/readme_fig/1.png)
 2.	Run the “pDGTD’ executable file for computation.
 3.	Run the Post_processing.exe to depict the transmission and reflection response in 
 time-domain and frequency-domain (400 nm – 2000 nm). Currently, it only gives results upon x-polarized excitation.
-![image](http://github.com/maiwending/readme_fig/raw/master/images/2.jpg)
+![image](https://github.com/maiwending/pDGTD_GDM/blob/master/readme_fig/2.png)
 
 Dependencies:
 The folder itself should contain the executable file in DEBUG mode with all the dependent library file that ready to go. 
