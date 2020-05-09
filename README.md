@@ -1,7 +1,7 @@
 # pDGTD_GDM
 ## This simulation package is prism-based Discontinuous Galerkin Time Domain method with General Dispersion Model for analysis of gold pixelized metasurfaces.
 
-# Use at Your Own Risk. 
+### Use at Your Own Risk. 
 We provide an electromagnetic computation package using prism-based discontinuous Galerkin time domain (DGTD) method. You may use it for non-commercial and commercial use. We try to ensure that the simulation result to be accurate. Despite our efforts, however, contents or computation results may, from time to time, contain error.
 
 
