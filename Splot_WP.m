@@ -1,19 +1,14 @@
 %time step size for DGTD3
-
 Result=load('result.txt');
 dt=Result(1,1);
 c0 = 299792458;    % the speed of light, [m/c]
 
-%dt=3.45e-18;
 %mode coefficient for the excitation
-Vin=load('Vin_mode_Zhang_Debye.txt');
+Vin=load('Vin.txt');
 %mode coefficient for the total mode voltage at the excitation port:Vr=Vreflected+Vin
-Vr=load('Vr_mode_Zhang_Debye.txt');
+Vr=load('Vr.txt');
 %mode coefficient for the transmitted volatge at load port
-Vt=load('Vt_mode_Zhang_Debye.txt');
-% Vin=Vin(1:60000);
-% Vr=Vr(1:60000);
-% Vt=Vt(1:60000);
+Vt=load('Vt.txt');
 
 nover=size(Vr,1);
 tt=0:nover-1;
@@ -55,33 +50,18 @@ for ii=Ns:Ns+size(Freq(Ns:No)/1e9)
     fprintf(fod,'%.12f  %.12f   %.12f   \n',Freq(ii)/1e9,20*log10(abs(S11(ii))),20*log10(abs(S21(ii))));
 end
 fclose(fod);
-
 lamda1=c0./Freq(Ns:No)/1e-9;
-
 figure (2)
 title('S-parameters');
-%plot(Freq(Ns:No)/1e9,20*log10(abs(S11(Ns:No))),'-r','LineWidth',3)
-%plot(Freq(Ns:No)/1e12,abs(S11(Ns:No)),'--r','LineWidth',3)
 plot(lamda1,abs(S11(Ns:No)),'--b','LineWidth',3)
 hold on
-%plot(Freq(Ns:No)/1e9,20*log10(abs(S21(Ns:No))),'-k','LineWidth',3)
-%plot(Freq(Ns:No)/1e12,abs(S21(Ns:No)),'-k','LineWidth',3)
 plot(lamda1,abs(S21(Ns:No)),'-k','LineWidth',3)
 hold on
 xlim([400,2000]);
 legend('Reflection prism DGTD','Transmission prism DGTD','location','best');
 legend boxoff;
 hold off
-%Reference from Analytic
-% [lamda2,HS11,HS21]=textread('S.txt','%f %f %f');
-% plot(lamda2,HS11,'rs','MarkerSize',8,'MarkerIndices',1:100:length(HS11))
-% hold on
-% plot(lamda2,HS21,'gd','MarkerSize',8,'MarkerIndices',1:100:length(HS11))
-% xlabel('Wavelength (nm)');
-% ylabel('Amplitude');
-% legend('|R| DGTD+GDM','|T| DGTD+GDM','|R| Analytical','|T| Analytical','location','best');
-% legend boxoff;
-% hold off
+
 
 
 
