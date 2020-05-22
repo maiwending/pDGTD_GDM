@@ -1,4 +1,4 @@
-# pDGTD_GDM
+# Prism DGTD simulation toolkit with GDM for pixelized metasurface
 ## This simulation package is prism-based Discontinuous Galerkin Time Domain method with General Dispersion Model for analysis of gold pixelized metasurfaces.
 
 ## How to use it?
