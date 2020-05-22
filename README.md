@@ -11,9 +11,9 @@ The MATLAB script will automatically call the pDGTD simulation toolkit, and then
 ## Efficiency comparison:
 For the default example, the CPU times of different method are listed below:
 
-pDGTD Default mode: 2000 s
-pDGTD RELEASE mode: 180 s
-CST Studio Software: 662 s
+pDGTD Default mode: 2000 s.
+pDGTD RELEASE mode: 180 s.
+CST Studio Software: 662 s.
 
 ## Dependencies:
 For better efficiency, the user could replace the pDGTD.exe with the file in the "RELEASE mode" folder.
