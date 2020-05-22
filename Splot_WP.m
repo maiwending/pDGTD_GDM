@@ -69,7 +69,7 @@ hold on
 plot(lamda1,abs(S21(Ns:No)),'-k','LineWidth',3)
 hold on
 xlim([400,2000]);
-legend('S11 prism DGTD','S21 prism DGTD','location','best');
+legend('Reflection prism DGTD','Transmission prism DGTD','location','best');
 legend boxoff;
 hold off
 %Reference from Analytic
