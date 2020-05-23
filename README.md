@@ -10,7 +10,7 @@ Modify the time span and the Geo matrix "A". The geometry is a 2-fold symmetric 
 The MATLAB script will automatically call the pDGTD simulation toolkit, and then the postprocessing programe to plot the transmission and reflection of the metasurface. It will depict the transmission and reflection response in time-domain and frequency-domain (400 nm – 2000 nm). Currently, it only gives results upon x-polarized excitation.
 ![image](https://github.com/maiwending/pDGTD_GDM/blob/master/readme_fig/2.png)
 
-## Efficiency comparison:
+## Computational efficiency comparison:
 
 For the default example, the CPU times of different method are listed below:
 
