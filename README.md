@@ -26,6 +26,7 @@ The user could download, install, add to path of the MKL. And then run the packa
 
 ## Reference
 The paper is submitted to Optics Material Express, entitled as "A Prismatic Discontinuous Galerkin Time Domain Method with Integrated Generalized Dispersion Model for Efficient Optical Metasurface Analysis".
+
 Please, cite that paper if you find this simulation toolkit useful.
 
 ## Contact:
