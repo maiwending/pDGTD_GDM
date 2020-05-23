@@ -24,8 +24,12 @@ In order to run the program in release mode, the useer have to install the free 
 https://software.intel.com/en-us/mkl/choose-download/windows
 The user could download, install, add to path of the MKL. And then run the package same as above instructions.
 
+## Reference
+The paper is submitted to Optics Material Express, entitled as "A Prismatic Discontinuous Galerkin Time Domain Method with Integrated Generalized Dispersion Model for Efficient Optical Metasurface Analysis".
+Please, cite that paper if you find this simulation toolkit useful.
+
 ## Contact:
-My profile can be found in: http://cearl.ee.psu.edu/staff/WMai.html.
+The webpage of our lab: http://cearl.ee.psu.edu/
 
 The functionality of this toolkit is currently limited. If you find any bug, or feel interested in cooperation, please contact me at: wdm@ieee.org.
 
