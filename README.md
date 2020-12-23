@@ -29,7 +29,6 @@ In the latest version, the MKL dependency has been removed.
 ## Reference:
 
 Wending Mai, Sawyer D. Campbell, Eric B. Whiting, Lei Kang, Pingjuan L. Werner, Yifan Chen, and Douglas H. Werner, "Prismatic discontinuous Galerkin time domain method with an integrated generalized dispersion model for efficient optical metasurface analysis," Opt. Mater. Express 10, 2542-2559 (2020)
-Wending Mai. (2020, November 13). maiwending/pDGTD_GDM: prism-DGTD with GDM to analyze pixelized metasurfaces (Version 1). Zenodo. http://doi.org/10.5281/zenodo.4270699
 
 Please cite if you find this simulation toolkit useful.
 
